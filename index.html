@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Notes Website</h1>
+    </nav>
+    <main class="text-section">
+
+        <h1>Store your notes in one click!</h1>
+
+        <div class = "container">
+            <div class="form-row">
+                <label>Title</label>
+            <input type = " text" placeholder="Enter the title for your note" id="title"/>
+            </div>
+            <div class="form-row">
+                <label>Note content</label>
+                <textarea id="addtxt" name="addtxt" ></textarea>
+            </div>
+            <button class="addnote" id="addnote">Add Note</button>
+        </div>
+        
+
+    </main>
+
+    <hr>
+
+    <main class = "notes-section">
+        <h1>Your Notes ...</h1>
+        <div class="notes-container" id="notes-container">
+            
+           
+            
+            
+        </div>
+    </main>
+</body>
+<script src="./index.js"></script>
+</html>
